@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "SIH Intelligent Dead Reckoning",
+    "slug": "sih-idr-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "sihidr",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow IDR system to track vehicle continuous position during GNSS outages."
+        }
+      ]
+    ]
+  }
+}
