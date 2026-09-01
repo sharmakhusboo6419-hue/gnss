@@ -15,7 +15,7 @@ export default function App() {
   useEffect(() => {
     let subAcc: any;
     let subGyro: any;
-    let timer: NodeJS.Timeout;
+    let timer: number;
 
     if (Platform.OS !== 'web') {
       Accelerometer.setUpdateInterval(100);
