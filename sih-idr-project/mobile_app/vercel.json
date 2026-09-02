@@ -2,13 +2,10 @@
   "version": 2,
   "buildCommand": "npx expo export -p web",
   "outputDirectory": "dist",
-  "routes": [
+  "rewrites": [
     {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
