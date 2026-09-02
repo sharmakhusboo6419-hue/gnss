@@ -2,6 +2,7 @@
   "version": 2,
   "buildCommand": "npx expo export -p web",
   "outputDirectory": "dist",
+  "cleanUrls": true,
   "routes": [
     {
       "handle": "filesystem"
