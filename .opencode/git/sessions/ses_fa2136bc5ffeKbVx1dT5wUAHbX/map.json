@@ -8,9 +8,9 @@
   "msgToCommit": {},
   "msgToBaseCommit": {},
   "continuation": {
-    "currentOwnerMsgId": "msg_05e4c04f20017ixGtEnucAbID5",
-    "predecessorOwnerMsgId": null,
-    "continuationSequence": 1,
+    "currentOwnerMsgId": "msg_062969bb0001MJuNKz5xhJyawK",
+    "predecessorOwnerMsgId": "msg_05e4c04f20017ixGtEnucAbID5",
+    "continuationSequence": 2,
     "lifecycleState": "watching",
     "postFinalWatchEntries": []
   }
